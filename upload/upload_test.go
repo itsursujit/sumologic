@@ -1,4 +1,4 @@
-package upload // import "github.com/nutmegdevelopment/sumologic/upload"
+package upload // import "github.com/itsursujit/sumologic/upload"
 
 import (
 	"bytes"

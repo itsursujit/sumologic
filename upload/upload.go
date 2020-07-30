@@ -1,4 +1,4 @@
-package upload // import "github.com/nutmegdevelopment/sumologic/upload"
+package upload // import "github.com/itsursujit/sumologic/upload"
 
 import (
 	"bytes"
@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 // DebugLogging enables debug logging

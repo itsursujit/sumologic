@@ -27,3 +27,4 @@ filestream/filestream
 journalstream/journalstream
 test.go
 sumologic
+.idea/

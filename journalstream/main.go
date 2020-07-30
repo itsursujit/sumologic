@@ -1,13 +1,13 @@
-package main // import "github.com/nutmegdevelopment/sumologic/journalstream"
+package main // import "github.com/itsursujit/sumologic/journalstream"
 
 import (
 	"flag"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
 	"github.com/coreos/go-systemd/sdjournal"
-	"github.com/nutmegdevelopment/sumologic/buffer"
-	"github.com/nutmegdevelopment/sumologic/upload"
+	"github.com/itsursujit/sumologic/buffer"
+	"github.com/itsursujit/sumologic/upload"
+	log "github.com/sirupsen/logrus"
 )
 
 var (

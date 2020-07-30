@@ -1,4 +1,4 @@
-package main // import "github.com/nutmegdevelopment/sumologic/journalstream"
+package main // import "github.com/itsursujit/sumologic/journalstream"
 
 import (
 	"testing"
@@ -7,7 +7,7 @@ import (
 	"github.com/coreos/go-systemd/journal"
 	"github.com/coreos/go-systemd/sdjournal"
 	"github.com/fortytw2/leaktest"
-	"github.com/nutmegdevelopment/sumologic/buffer"
+	"github.com/itsursujit/sumologic/buffer"
 	"github.com/satori/go.uuid"
 	"github.com/stretchr/testify/assert"
 )

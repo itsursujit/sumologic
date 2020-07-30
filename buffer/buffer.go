@@ -1,11 +1,11 @@
-package buffer // import "github.com/nutmegdevelopment/sumologic/buffer"
+package buffer // import "github.com/itsursujit/sumologic/buffer"
 
 import (
 	"bytes"
 	"sync"
 
-	log "github.com/Sirupsen/logrus"
-	"github.com/nutmegdevelopment/sumologic/upload"
+	"github.com/itsursujit/sumologic/upload"
+	log "github.com/sirupsen/logrus"
 )
 
 // DebugLogging enables debug logging

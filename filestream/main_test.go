@@ -1,4 +1,4 @@
-package main // import "github.com/nutmegdevelopment/sumologic/filestream"
+package main // import "github.com/itsursujit/sumologic/filestream"
 
 import (
 	"bytes"
@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nutmegdevelopment/sumologic/buffer"
+	"github.com/itsursujit/sumologic/buffer"
 	"github.com/stretchr/testify/assert"
 )
 

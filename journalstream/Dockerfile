@@ -13,12 +13,12 @@ RUN apt-get update && \
         ca-certificates \
         libsystemd-dev
 
-RUN go get -d -v github.com/nutmegdevelopment/sumologic/upload
-RUN go get -d -v github.com/nutmegdevelopment/sumologic/buffer
-ADD . /go/src/github.com/nutmegdevelopment/sumologic
+RUN go get -d -v github.com/itsursujit/sumologic/upload
+RUN go get -d -v github.com/itsursujit/sumologic/buffer
+ADD . /go/src/github.com/itsursujit/sumologic
    
-RUN go get -d -u -v github.com/nutmegdevelopment/sumologic/journalstream/... && \
-    go install github.com/nutmegdevelopment/sumologic/journalstream && \
+RUN go get -d -u -v github.com/itsursujit/sumologic/journalstream/... && \
+    go install github.com/itsursujit/sumologic/journalstream && \
     cp /go/bin/journalstream / && \
     apt-get remove -y \
         git \
